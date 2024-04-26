@@ -16,7 +16,7 @@ from os import path as ospath
 from nltk.corpus import stopwords
 from inputimeout import inputimeout
 #nltk.download('stopwords')
-#nltk.download('punkt')
+#nltk.download('punkt') #hay que instalar punkt para que tokenize funcione ojo!
 from nltk.tokenize import word_tokenize
 all_stopwords = stopwords.words('spanish')
 
